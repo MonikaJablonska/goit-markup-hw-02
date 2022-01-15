@@ -32,10 +32,41 @@ body {
   font-size: 44px;
 }
 
+.our-team {
+  padding: 75px;
+  background-color: #f5f4fa;
+}
+
+.team-card {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 16px;
+  width: 270px;
+  height: 368px;
+  border-radius: 0 0 4px 4px;
+}
+
 .footer {
   padding: 60px 215px;
   background-color: #2f303a;
   color: #ffffff;
+}
+
+.header-2 {
+  text-align: center;
+  color: #212121;
+  font-size: 36px;
+}
+
+.header-3 {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.header-4 {
+  font-size: 14px;
+  color: #212121;
 }
 
 .link {
@@ -64,11 +95,6 @@ body {
   color: #2196f3;
 }
 
-.header-4 {
-  font-size: 14px;
-  color: #212121;
-}
-
 /* btn = button */
 .btn {
   color: #212121;
@@ -78,6 +104,7 @@ body {
   border: none;
   border-radius: 4px;
   padding: 0 22px;
+  cursor: pointer;
 }
 
 .btn:hover,

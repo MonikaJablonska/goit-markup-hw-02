@@ -12,6 +12,8 @@ body {
   color: #000000;
   font-size: 26px;
   font-weight: 700;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
 }
 
 .logo-accent {
@@ -28,8 +30,15 @@ body {
   padding-top: 200px;
   background-color: #2f303a;
   text-align: center;
+}
+
+.hero-header {
   color: #ffffff;
+  line-height: 1.36;
   font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .our-team {
@@ -46,6 +55,10 @@ body {
   border-radius: 0 0 4px 4px;
 }
 
+.team-position {
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
 .footer {
   padding: 60px 215px;
   background-color: #2f303a;
@@ -56,23 +69,39 @@ body {
   text-align: center;
   color: #212121;
   font-size: 36px;
+  line-height: 1.167;
+  letter-spacing: 0.03em;
 }
 
 .header-3 {
-  color: #212121;
   font-size: 16px;
   font-weight: 500;
+  line-height: 1.188;
+  letter-spacing: 0.03em;
+}
+
+.header-3,
+.header-3-project {
+  color: #212121;
+}
+
+.header-3-project {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .header-4 {
   font-size: 14px;
   color: #212121;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
 }
 
 .link {
   text-decoration: none;
-  font-size: 14px;
-  font-weight: 400;
+  letter-spacing: 0.02em;
 }
 
 .link-navigation,
@@ -85,6 +114,8 @@ body {
   font-style: normal;
   color: #ffffff;
   opacity: 0.6;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .link-footer-address {
@@ -98,7 +129,9 @@ body {
 /* btn = button */
 .btn {
   color: #212121;
-  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
   background-color: #f5f4fa;
   height: 38px;
   border: none;
@@ -115,5 +148,18 @@ body {
 }
 
 .btn.hero-btn {
+  font-weight: 700;
   padding: 0 40px;
+}
+
+.project-type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+}
+
+.strength-text {
+  letter-spacing: 0.03em;
+  line-height: 1.71;
 }

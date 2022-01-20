@@ -114,10 +114,14 @@ body {
   text-decoration: none;
 }
 
-.link-navigation,
-.link-contact {
+.link-navigation {
   font-weight: 500;
   color: var(--secondary-text-color);
+}
+
+.link-contact {
+  font-weight: 500;
+  color: var(--main-text-color);
 }
 
 .link-footer {

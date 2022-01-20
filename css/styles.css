@@ -136,7 +136,7 @@ body {
   opacity: 1;
 }
 
-.link:hover {
+.link:hover, .link-active {
   color: var(--accent);
 }
 
